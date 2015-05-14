@@ -2,9 +2,12 @@ body, html{
    width:100%;
    min-height: 100vh;
    position:absolute;
+   margin:0;
+   padding:0;
 }
 
 
+@media only screen and (max-width: 500px) { .button { font-size: .4em } }
 .first{margin:0px;}
 
 .section1 {
@@ -72,63 +75,25 @@ body, html{
     margin-left: auto;
     margin-right: auto }*/
 
-    .smartpurse {content:url('smartpurse2.png');
-      max-height:80%;
-      max-width:90%;
-      padding-top:50px;
-      float:left;
-      display:inline-block;
-      margin-left:100px;}
+    .sample1 > li{display:inline-block;
+      padding:40px;
+     
+     }    
 
-      .smartpurse.hover{background-color: pink;}
-
-    .lemonaid {content:url('lemonaid2.png');
-      max-height:80%;
-      max-width:80%;
-      padding-top:50px;
-      margin:auto;
-    display:inline-block;}
-
-    .hack {content:url('hack.png');
-      max-height:80%;
-      max-width:80%;
-      float:right;  
-        display:inline-block;
-        margin-right:100px;
-        margin-top:50px;}
-
- /*  .bottomline{ display: block;
-    margin-left: auto;
-    margin-right: auto}
-*/
-    .balloon {content:url('101.png');
-      max-height:80%;
-      max-width:80%;
-      padding-top:50px;
-      float:left;
-    display:inline-block;
-    margin-left:100px;
-    padding-bottom:80px;}
-
-    .blog {content:url('blog.png');
-      max-height:80%;
-      max-width:80%;
-      padding-top:50px;
-      margin:auto;
-        display:inline-block;
-        padding-bottom:80px;}
-
-    .headcount {content:url('headcount.png');
-      max-height:80%;
-      max-width:80%;
-      float:right;
-        display:inline-block;
-        margin-right:100px;
-        margin-top:50px;
-        margin-bottom: 40px;
-            display:inline-block;
-          padding-bottom:80px;
+.balloon, .blog, .headcount {padding-bottom: 70px;}
+/*
+      .smartpurse:hover{background-color: #448CC8;
+        padding:none;
       }
+    */
+
+
+
+/*    .lemonaid:hover{background-color: #448CC8;
+*//*
+    }
+*/
+
 
 
   .section4 {
@@ -152,35 +117,33 @@ body, html{
   background-color: #FFBB4E;
   padding-bottom:30px;}
 
-a{border:none;
-          
-        
-            font-size:.4em;           
-            color:white;
-            text-align: center;
-            margin: auto  ;
-         margin-left: 85px;
-                  outline:none;
-            text-decoration: none;
-       
-  }
-  
+
     .button {width: 300px;
           height: 87px;
-          background-color:#7FB2E9 ;
+          background-color:#448CC8 ;
           border:none;
             border-radius: 5px;
             font-weight:300;
             font-size: 1.5em;
             color:#4A4A4A;
-            text-align: center;
-            margin: auto  ;
-            margin-top: 40px;
-                  outline:none;
+            outline:none;
             text-decoration: none;
-            display:flex;
-            flex-direction:column;
-            justify-content:center;
+            display:inline-block;line-height: 20px; /* Tamaño de linea */
+text-align: center;
+vertical-align: middle;;
+          margin-top: 50px;
            }
         .button:hover {background-color:#5D9CDF;
          }
+
+
+
+
+
+
+
+
+
+
+
+
