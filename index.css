@@ -52,6 +52,7 @@ body, html{
       max-width:50%;
       margin:auto;
       padding-top:50px;}
+.picture2:hover {opacity: .7}
 
       .picture3{content:url('designer.png');
       max-height:50%;
@@ -80,20 +81,18 @@ body, html{
      
      }    
 
-.balloon, .blog, .headcount {padding-bottom: 70px;}
-/*
-      .smartpurse:hover{background-color: #448CC8;
-        padding:none;
+  
+
+.balloon, .blog, .headcount {padding-bottom: 70px;
+background:none;}
+
+.smartpurse{background: none;}
+      
+      .smartpurse:hover, .lemonaid:hover, .hack:hover, .balloon:hover, .blog:hover, .headcount:hover{  
+       opacity:.6;
+     
       }
-    */
-
-
-
-/*    .lemonaid:hover{background-color: #448CC8;
-*//*
-    }
-*/
-
+    
 
 
   .section4 {
@@ -125,17 +124,23 @@ body, html{
             border-radius: 5px;
             font-weight:300;
             font-size: 1.5em;
-            color:#4A4A4A;
+            color: white;
             outline:none;
             text-decoration: none;
             display:inline-block;line-height: 20px; /* Tamaño de linea */
 text-align: center;
 vertical-align: middle;;
           margin-top: 50px;
+          font-family: "Roboto";
            }
+
+
         .button:hover {background-color:#5D9CDF;
+          cursor: pointer;
          }
 
+a {text-decoration: none;
+color:white;}
 
 
 
